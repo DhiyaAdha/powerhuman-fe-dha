@@ -53,9 +53,9 @@
                                 0
                             </div>
                         </div>
-                        <a href="employee_create.html">
+                        <NuxtLink :to="{ name: 'employees-create' }" >
                             <img src="/assets/svgs/ric-plus.svg" alt="">
-                        </a>
+                        </NuxtLink>
                     </div>
                 </div>
                 <div class="card !gap-y-10 min-h-[200px]">
